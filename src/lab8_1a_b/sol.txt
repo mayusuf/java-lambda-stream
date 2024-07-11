@@ -1,0 +1,2 @@
+a.i. There are no parameters. But have free variables : s and t as they are comes outside of lambda vairable
+a. ii. s and t is parameters. ignoreCase is a free variable

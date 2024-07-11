@@ -10,7 +10,7 @@ public class EmployeeInfo {
 		Collections.sort(emps, (e1,e2) ->
 		{
 			if(method == SortMethod.BYNAME) {
-				
+
 				int r = e1.name.compareTo(e2.name);
 				if(r !=0) return r;
 				return Integer.compare(e1.salary, e2.salary);

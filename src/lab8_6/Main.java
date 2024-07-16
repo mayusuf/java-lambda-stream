@@ -7,7 +7,7 @@ public class Main {
         // A. (Employee e) -> e.getName()
         // Function<Employee, String> f = Employee::getName;
         //B. (Employee e,String s) -> e.setName(s)
-        // BiConsumer<Employee, String> f = Employee::setName
+        //BiConsumer<Employee, String> f = Employee::setName
         //C. (String s1,String s2) -> s1.compareTo(s2)
         // BiFunction<String, String, Integer> f = String::compareTo
         //D. (Integer x,Integer y) -> Math.pow(x,y)

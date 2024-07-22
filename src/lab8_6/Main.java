@@ -9,16 +9,16 @@ public class Main {
         //B. (Employee e,String s) -> e.setName(s)
         //BiConsumer<Employee, String> f = Employee::setName
         //C. (String s1,String s2) -> s1.compareTo(s2)
-        // BiFunction<String, String, Integer> f = String::compareTo
+        // Comparator<String> compareTo = String::compareTo
         //D. (Integer x,Integer y) -> Math.pow(x,y)
-        // BiFunction<Integer, Integer, Integer> f = Math::pow
+        // BiFunction<Integer, Integer, Double> f = Math::pow
         //E. (Apple a) -> a.getWeight()
         // Function<Apple, Double> f = Apple::getWeight
         //F. (String x) -> Integer.parseInt(x);
-        // Function<String, Integer> f = Interger::parseInt
+        // Function<String, Integer> f = Integer::parseInt
         //G. EmployeeNameComparator comp = new EmployeeNameComparator();
         //(Employee e1, Employee e2) -> comp.compare(e1,e2)
-        // BiFunction<Employee, Employee, Integer> f = comp.compare
+        // Comparator<Employee> f = comp::compare
 
     }
 }
